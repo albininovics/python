@@ -1,5 +1,5 @@
 i = 1;
-b = "Hai"
+b = "Hello"
 while i < 3:
     print(b)
-    i += 1
+    i = i + 1
