@@ -1,10 +1,8 @@
-test = {
-    "UserId":  1,
-    "id":  1,
-    "title" :  "delectus aut autem",
-    "completed" :  "false",
+import requests
+response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
+print(response.text)
+print(response.json())
+result_json = response.json()
+print(result_json['title'])
 
-}
-for x, y in test.items():
-    print(x , y)
     
