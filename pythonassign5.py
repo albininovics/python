@@ -1,2 +1,2 @@
 demo = "Learn Python Program"
-print(len(demo))
+print(demo.count('r'))

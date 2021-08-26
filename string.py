@@ -1,2 +1,2 @@
 test = "Learn Python"
-print(len(test))
+print(test.count('n'))

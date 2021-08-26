@@ -1,4 +1,4 @@
-a = 25
+a = 50
 if a > 0:
     print("The number is positive")
 elif a < 0:

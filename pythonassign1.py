@@ -1,3 +1,4 @@
-a = 20
-b = 10
-print(a+b)
+a =int(input("enter first number:"))
+b =int(input("enter second number:"))
+sum = a + b
+print("sum:",sum)

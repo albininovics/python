@@ -5,5 +5,5 @@ dicy = {
     "addr" : "kalluvilayil",
     "phone": 123456
 }
-for x in dicy:
-    print(x)
+for x ,y in dicy.items():
+    print(x,y)
